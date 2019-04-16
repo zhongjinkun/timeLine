@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>时间轴</title>
+    <link rel="stylesheet" href="timeLine.css">
+</head>
+<body>
+   <div class="myTime"></div>
+    <!-- common js -->
+    <script src="jquery-1.11.1.min.js"></script>
+    <script src="timeLine.js"></script>
+    <script>
+        var data=[{content:['我是第一条','50140是打发第三方'],time:'2018-10-10'},{content:['1505150','50140是打发第三方'],time:'2018-10-10'},];
+        $('.myTime').timeLine(data)
+    </script>
+</body>
+
+</html>
