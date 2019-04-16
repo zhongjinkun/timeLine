@@ -26,7 +26,7 @@
                 <div class="develop-date">\
                     <span class="list"></span>\
                     <span class="line"></span>\
-                    <span class="date"><i>2019</i></span>\
+                    <span class="date"><i>'+pageinit[i].time+'</i></span>\
                 </div>\
             </li>'
                 }
