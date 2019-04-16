@@ -1,7 +1,7 @@
 # timeLine
 竖向时间轴 兼容IE8 
 
-代码如下
+使用:先引入timeLine.css、jq、timeLine.js；
 
 
 <div class="myTime"></div>
